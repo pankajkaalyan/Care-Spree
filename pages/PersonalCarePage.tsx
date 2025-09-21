@@ -3,7 +3,7 @@ import React from 'react';
 import ServiceSidebar from '../components/ServiceSidebar';
 
 const PersonalCareHero = () => (
-    <section className="relative bg-purple-800 text-white py-20 md:py-32 bg-cover bg-center" style={{ backgroundImage: "url('./images/personal-care-hero-bg.svg')" }}>
+    <section className="relative bg-purple-800 text-white py-20 md:py-32 bg-cover bg-center" style={{ backgroundImage: "url('images/services/personal-care.png')" }}>
         <div className="absolute inset-0 bg-purple-900 opacity-60"></div>
         <div className="container mx-auto px-6 text-center relative z-10">
             <h1 className="text-4xl md:text-5xl font-bold">Personal Care</h1>
@@ -18,7 +18,7 @@ const MainContent = () => {
                 <div className="grid lg:grid-cols-3 gap-12">
                     <div className="lg:col-span-2 animate-on-scroll">
                         <div className="rounded-lg shadow-lg w-full mb-8 image-hover-effect">
-                          <img src="./images/personal-care-main.svg" alt="Caregiver assisting with personal care" className="w-full object-cover" />
+                          <img src="images/services/personal-care.png" alt="Caregiver assisting with personal care" className="w-full object-cover" />
                         </div>
                         <h2 className="text-3xl md:text-4xl font-bold text-gray-900 dark:text-white mb-4">Learn about Personal Care</h2>
                         <p className="text-gray-600 dark:text-gray-300 leading-relaxed">

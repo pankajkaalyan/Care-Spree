@@ -44,7 +44,7 @@ const WhyChooseUs: React.FC = () => {
           </div>
           <div className="animate-on-scroll" style={{ transitionDelay: '200ms' }}>
             <div className="rounded-lg shadow-lg image-hover-effect">
-              <img src="./images/why-choose-us.svg" alt="Team meeting with clients" className="w-full h-auto object-cover"/>
+              <img src="images/13.png" alt="Team meeting with clients" className="w-full h-auto object-cover"/>
             </div>
           </div>
         </div>

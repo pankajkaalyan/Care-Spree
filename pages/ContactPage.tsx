@@ -85,7 +85,7 @@ const ContactPage: React.FC = () => {
                     <div className="grid lg:grid-cols-2 gap-12 items-center">
                         <div className="animate-on-scroll">
                            <div className="rounded-lg shadow-lg image-hover-effect">
-                             <img src="./images/contact-details.svg" alt="Caregiver with senior woman" className="w-full h-auto object-cover" />
+                             <img src="images/9.png" alt="Caregiver with senior woman" className="w-full h-auto object-cover" />
                            </div>
                         </div>
                         <div className="animate-on-scroll" style={{ transitionDelay: '100ms' }}>

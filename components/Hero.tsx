@@ -25,7 +25,7 @@ const Hero: React.FC = () => {
                         <img 
                             src="images/home/home-page-01.png" 
                             alt="Smiling caregiver assisting a senior woman with a tablet computer" 
-                            className="object-cover h-full w-auto max-w-none max-h-[600px] rounded-lg"
+                            className="object-cover h-full w-[500px] object-fill max-w-none max-h-[600px] rounded-lg"
                         />
                     </div>
                 </div>

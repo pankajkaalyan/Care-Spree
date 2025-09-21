@@ -15,7 +15,7 @@ const HowWeHelp: React.FC = () => {
         <div className="grid lg:grid-cols-2 gap-12 lg:gap-24 items-center">
           <div className="order-2 lg:order-1 animate-on-scroll">
             <div className="rounded-lg shadow-lg image-hover-effect">
-              <img src="./images/how-we-help.svg" alt="Caregiver assisting a senior" className="rounded-lg shadow-lg w-full h-auto object-cover"/>
+              <img src="images/7.png" alt="Caregiver assisting a senior" className="rounded-lg shadow-lg w-full h-auto object-cover"/>
             </div>
           </div>
           <div className="order-1 lg:order-2 animate-on-scroll" style={{ transitionDelay: '100ms' }}>

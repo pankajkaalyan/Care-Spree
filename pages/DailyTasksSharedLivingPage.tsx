@@ -19,7 +19,7 @@ const MainContent = () => {
                 <div className="grid lg:grid-cols-3 gap-12">
                     <div className="lg:col-span-2">
                         <div className="rounded-lg shadow-lg w-full mb-8 image-hover-effect">
-                           <img src="./images/daily-tasks-main.svg" alt="People living together in a shared space" className="w-full object-cover" />
+                           <img src="images/services/daily-tasks-shared-living.jpeg" alt="People living together in a shared space" className="w-full object-cover" />
                         </div>
                         <h2 className="text-3xl md:text-4xl font-bold text-gray-900 dark:text-white mb-4">Thriving in a Shared Environment</h2>
                         <p className="text-gray-600 dark:text-gray-300 leading-relaxed">

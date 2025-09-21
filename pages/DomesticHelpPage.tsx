@@ -4,7 +4,7 @@ import React from 'react';
 import ServiceSidebar from '../components/ServiceSidebar';
 
 const DomesticHelpHero = () => (
-    <section className="relative bg-purple-800 text-white py-20 md:py-32 bg-cover bg-center" style={{ backgroundImage: "url('./images/domestic-help-hero-bg.svg')" }}>
+    <section className="relative bg-purple-800 text-white py-20 md:py-32 bg-cover bg-center" style={{ backgroundImage: "url('images/services/Domestic-Help.jpeg')" }}>
         <div className="absolute inset-0 bg-purple-900 opacity-60"></div>
         <div className="container mx-auto px-6 text-center relative z-10">
             <h1 className="text-4xl md:text-5xl font-bold">Domestic Help</h1>
@@ -19,7 +19,7 @@ const MainContent = () => {
                 <div className="grid lg:grid-cols-3 gap-12">
                     <div className="lg:col-span-2">
                         <div className="rounded-lg shadow-lg w-full mb-8 image-hover-effect">
-                           <img src="./images/domestic-help-main.svg" alt="Caregiver making a bed" className="w-full object-cover" />
+                           <img src="images/services/Domestic-Help.jpeg" alt="Caregiver making a bed" className="w-full object-cover" />
                         </div>
                         <h2 className="text-3xl md:text-4xl font-bold text-gray-900 dark:text-white mb-4">Learn about Domestic Help</h2>
                         <p className="text-gray-600 dark:text-gray-300 leading-relaxed">

@@ -27,72 +27,73 @@ const ServiceCard: React.FC<ServiceCardProps> = ({ icon, title, description, ima
 const Services: React.FC = () => {
   const allServices = [
     { 
-      icon: 'fa-solid fa-hand-holding-heart', 
+      icon: 'fa-solid fa-hand-holding-heart hidden', 
       title: 'Personal Care', 
       description: 'Assistance with, or supervision of, personal tasks of daily life.', 
       imageUrl: 'images/services/personal-care.png',
       href: '#personal-care'
     },
     { 
-      icon: 'fa-solid fa-broom', 
+      icon: 'fa-solid fa-broom hidden', 
       title: 'Domestic Help', 
-      description: 'images/services/personal-care.png',
+      description: 'Assistance with household tasks and chores.',
+      imageUrl: 'images/services/Domestic-Help.jpeg',
       href: '#domestic-help'
     },
     { 
-      icon: 'fa-solid fa-car', 
+      icon: 'fa-solid fa-car hidden', 
       title: 'Transportation', 
       description: 'Travel and transportation assistance with special equipment.', 
-      imageUrl: './images/service-transportation.svg',
+      imageUrl: 'images/services/transportation.png',
       href: '#transportation'
     },
     { 
-      icon: 'fa-solid fa-utensils', 
+      icon: 'fa-solid fa-utensils hidden', 
       title: 'Meal Preparation', 
       description: 'Assistance with meal preparation and delivery.', 
-      imageUrl: './images/service-meal-prep.svg',
+      imageUrl: './images/services/meal-preparation.png',
       href: '#meal-preparation'
     },
     { 
-      icon: 'fa-solid fa-people-arrows', 
+      icon: 'fa-solid fa-people-arrows hidden', 
       title: 'Life Stage, Transition', 
       description: 'Support during major life changes like starting school or a new job.', 
-      imageUrl: './images/service-life-stage.svg', 
+      imageUrl: 'images/services/assist-life-stage-transition.jpeg', 
       href: '#assist-life-stage-transition'
     },
     { 
-      icon: 'fa-solid fa-house-user', 
+      icon: 'fa-solid fa-house-user hidden', 
       title: 'Daily Tasks/Shared Living', 
       description: 'Assistance with daily routines in a shared living environment.', 
-      imageUrl: './images/service-daily-tasks.svg',
+      imageUrl: 'images/services/daily-tasks-shared-living.jpeg',
       href: '#daily-tasks-shared-living'
     },
     { 
-      icon: 'fa-solid fa-lightbulb', 
+      icon: 'fa-solid fa-lightbulb hidden', 
       title: 'Innov. Community Participation', 
       description: 'Creative ways to engage with the community based on your interests.', 
-      imageUrl: './images/service-innov-community.svg',
+      imageUrl: 'images/services/innovative-community-participation.jpeg',
       href: '#innov-community-participation'
     },
     { 
-      icon: 'fa-solid fa-brain', 
+      icon: 'fa-solid fa-brain hidden', 
       title: 'Development-Life Skills', 
       description: 'Training to increase your skills for independence and daily life.', 
-      imageUrl: './images/service-dev-life-skills.svg',
+      imageUrl: 'images/services/development-life-skills.jpeg',
       href: '#development-life-skills'
     },
     { 
-      icon: 'fa-solid fa-users', 
+      icon: 'fa-solid fa-users hidden', 
       title: 'Participate Community', 
       description: 'Support to join social, recreational, and community activities.', 
-      imageUrl: './images/service-participate-community.svg',
+      imageUrl: 'images/services/participate-community.jpeg',
       href: '#participate-community'
     },
     { 
-      icon: 'fa-solid fa-puzzle-piece', 
+      icon: 'fa-solid fa-puzzle-piece hidden', 
       title: 'Group/Centre Activities', 
       description: 'Engaging group programs to socialize, learn, and have fun.', 
-      imageUrl: './images/service-group-activities.svg',
+      imageUrl: 'images/services/group-centre-activities.jpeg',
       href: '#group-centre-activities'
     },
   ];

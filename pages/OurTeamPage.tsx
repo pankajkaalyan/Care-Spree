@@ -16,13 +16,13 @@ interface TeamMember {
 }
 
 const teamMembers: TeamMember[] = [
-    { name: 'Gaganpreet Singh Anand', role: 'Director', imageUrl: './images/team-gaganpreet.svg' },
-    { name: 'Archana Anand', role: 'Manager', imageUrl: './images/team-archana-manager.svg' },
-    { name: 'Ashish Sachdeva', role: 'Registered Nurse', imageUrl: './images/team-ashish.svg' },
-    { name: 'Archana Anand', role: 'Care Team', imageUrl: './images/team-archana-care.svg' },
-    { name: 'Jazlin', role: 'Care Team', imageUrl: './images/team-jazlin.svg' },
-    { name: 'Hien Do', role: 'Care Team', imageUrl: './images/team-hien.svg' },
-    { name: 'Samar', role: 'Care Team', imageUrl: './images/team-samar.svg' },
+    { name: 'Gaganpreet Singh Anand', role: 'Director', imageUrl: 'images/our-team/Team-That-Cares.png' },
+    { name: 'Archana Anand', role: 'Manager', imageUrl: 'images/our-team/assisting_client_with_daily_routine.png' },
+    { name: 'Ashish Sachdeva', role: 'Registered Nurse', imageUrl: 'images/our-team/team_of_support_workers.png' },
+    { name: 'Archana Anand', role: 'Care Team', imageUrl: 'images/our-team/client_achieving_milestone.png' },
+    { name: 'Jazlin', role: 'Care Team', imageUrl: 'images/our-team/client_learning_on_tablet.png' },
+    { name: 'Hien Do', role: 'Care Team', imageUrl: 'images/our-team/group_art_therapy_session.png' },
+    { name: 'Samar', role: 'Care Team', imageUrl: 'images/our-team/hero-image.jpeg' },
 ];
 
 const TeamMemberCard: React.FC<TeamMember> = ({ name, role, imageUrl }) => (

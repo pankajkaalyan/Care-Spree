@@ -14,11 +14,11 @@ const FundingInfo: React.FC = () => {
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <div className="relative animate-on-scroll">
             <div className="rounded-lg shadow-lg relative z-10 image-hover-effect">
-              <img src="./images/funding-info-main.svg" alt="Caregiver assisting elderly" className="w-full h-full object-cover"/>
+              <img src="images/12.png" alt="Caregiver assisting elderly" className="w-full h-full object-cover"/>
             </div>
-            <div className="rounded-lg shadow-lg absolute -bottom-12 -right-12 border-8 border-white dark:border-gray-900 hidden md:block image-hover-effect">
-              <img src="./images/funding-info-secondary.svg" alt="Group of seniors" className="w-full h-full object-cover"/>
-            </div>
+            {/* <div className="rounded-lg shadow-lg absolute -bottom-12 -right-12 border-8 border-white dark:border-gray-900 hidden md:block image-hover-effect">
+              <img src="images/13.png" alt="Group of seniors" className="w-full h-full object-cover"/>
+            </div> */}
           </div>
           <div className="animate-on-scroll" style={{ transitionDelay: '100ms' }}>
             <p className="text-sm font-semibold text-blue-600 dark:text-blue-400 uppercase tracking-wider">SYDNEY-BASED NDIS AGENCY</p>

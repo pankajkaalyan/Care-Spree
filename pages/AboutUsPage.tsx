@@ -23,11 +23,11 @@ const WhoWeAreSection = () => {
                 <div className="grid lg:grid-cols-2 gap-12 items-center">
                     <div className="relative animate-on-scroll">
                         <div className="rounded-lg shadow-lg relative z-10 image-hover-effect">
-                          <img src="./images/about-who-we-are-main.svg" alt="Caregiver assisting elderly" className="w-full h-full object-cover"/>
+                          <img src="images/about/team-caring.png" alt="Caregiver assisting elderly" className="w-full h-full object-cover"/>
                         </div>
-                        <div className="rounded-lg shadow-lg absolute -bottom-12 -right-12 border-8 border-white dark:border-gray-900 hidden md:block image-hover-effect">
+                        {/* <div className="rounded-lg shadow-lg absolute -bottom-12 -right-12 border-8 border-white dark:border-gray-900 hidden md:block image-hover-effect">
                           <img src="./images/about-who-we-are-secondary.svg" alt="Group of seniors" className="w-full h-full object-cover"/>
-                        </div>
+                        </div> */}
                     </div>
                     <div className="animate-on-scroll" style={{ transitionDelay: '100ms' }}>
                         <p className="text-sm font-semibold text-blue-600 dark:text-blue-400 uppercase tracking-wider">SYDNEY-BASED NDIS AGENCY</p>
@@ -61,22 +61,22 @@ const WhoWeAreSection = () => {
 const WhyChooseUsSection = () => {
     const items = [
         { 
-            imageUrl: './images/why-choose-us-staff.svg', 
+            imageUrl: 'images/about/healthcare-professional-reviewing-documents.png', 
             title: 'Experienced Staff',
             description: 'Our team is highly trained and dedicated to providing the best possible support with compassion and expertise.'
         },
         { 
-            imageUrl: './images/why-choose-us-people.svg', 
+            imageUrl: 'images/about/person_filling_feedback_form.png', 
             title: 'The right people',
             description: 'We carefully match you with support workers who fit your unique needs, personality, and preferences.'
         },
         { 
-            imageUrl: './images/why-choose-us-care.svg', 
+            imageUrl: 'images/about/first_aid_kit.png', 
             title: 'Preferred care',
             description: 'Your choices and preferences are always at the heart of our service, ensuring care is delivered your way.'
         },
         { 
-            imageUrl: './images/why-choose-us-partner.svg', 
+            imageUrl: 'images/about/team_of_diverse_professionals.png', 
             title: 'Your preferred Partner',
             description: 'We collaborate with you as a trusted partner to help you achieve your goals and live a more fulfilling life.'
         }
