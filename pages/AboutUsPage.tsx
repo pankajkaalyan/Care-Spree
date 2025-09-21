@@ -116,7 +116,17 @@ const MissionVissionSection = () => {
             points: [
                 "Inclusive and Supportive Environment",
                 "Compassionate and Respectful Approach",
-                "Commitment to Quality & Empowering Clients"
+                "Commitment to Quality & Empowering Clients",
+                "Personalized Care Plans",
+                "Experienced and Dedicated Staff",
+                "Open Communication and Collaboration",
+                "Promoting Well-being and Independence",
+                "Respect for Diversity",
+                "Ethical Practices and Transparency",
+                "Continuous Learning and Development",
+                "Holistic Care Philosophy",
+                "Client and Family Involvement",
+                "Innovation in Care Delivery"
             ],
             description: "At Care Spree, we take a person-centered approach, prioritizing each individual's unique needs and preferences to provide the best possible care. Our goal is to foster a supportive and inclusive environment where clients feel valued, empowered, and well cared for."
         },
@@ -171,7 +181,7 @@ const MissionVissionSection = () => {
                     </div>
                     <div className="animate-on-scroll" style={{ transitionDelay: '100ms' }}>
                         <div className="rounded-lg shadow-lg image-hover-effect">
-                           <img src="./images/about-mission-vision.svg" alt="Holding hands" className="w-full h-auto object-cover"/>
+                           <img src="images/about/holding-hands.png" alt="Holding hands" className="w-full h-auto object-cover"/>
                         </div>
                     </div>
                 </div>

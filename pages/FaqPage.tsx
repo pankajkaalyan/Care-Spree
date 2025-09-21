@@ -78,7 +78,7 @@ const FaqPage: React.FC = () => {
                             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 dark:text-white mt-2">Frequently Asked Question & Answer Here</h2>
                         </div>
                         <div className="flex-shrink-0">
-                             <img src="./images/faq-illustration.svg" alt="Illustration of a person holding A and B cards" className="w-48 h-auto"/>
+                             <img src="images/faq.png" alt="Illustration of a person holding A and B cards" className="w-48 h-auto"/>
                         </div>
                     </div>
                     

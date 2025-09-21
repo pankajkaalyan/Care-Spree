@@ -42,7 +42,7 @@ const QualitySafetyPage: React.FC = () => {
                         </ul>
                     </SectionCard>
 
-                    <SectionCard imageUrl="images/safety/Team-That-Cares.png" title="NDIS Practice Standards & Compliance" reverse={true}>
+                    <SectionCard imageUrl="images/safety/group.png" title="NDIS Practice Standards & Compliance" reverse={true}>
                          <p>We are a registered NDIS provider and are fully compliant with the NDIS Practice Standards and Quality Indicators. This framework guides our service delivery, ensuring we provide safe, high-quality, and reliable support.</p>
                         <p>Our compliance means we are committed to upholding your rights, ensuring your privacy and dignity, and providing a transparent and accountable service. We undergo regular audits and assessments to maintain our registration and demonstrate our commitment to the NDIS Quality and Safeguards Commission.</p>
                     </SectionCard>

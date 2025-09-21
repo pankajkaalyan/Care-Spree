@@ -10,7 +10,7 @@ const ServiceLink: React.FC<{ title: string, href: string, active?: boolean }> =
 
 const HelpCTA = () => (
     <div className="bg-white dark:bg-gray-800 rounded-lg p-6 shadow-lg mt-8 text-center relative overflow-hidden border dark:border-gray-700">
-       <img src="./images/help-cta-person.svg" alt="A smiling person" className="w-48 h-auto mx-auto mb-4"/>
+       <img src="images/a-smiling-person.png" alt="A smiling person" className="w-48 h-auto mx-auto mb-4"/>
        <h3 className="text-2xl font-bold text-gray-900 dark:text-white">Need Any Help From Us</h3>
        <a href="#contact-us" className="mt-4 bg-purple-600 text-white px-8 py-3 rounded-md font-semibold hover:bg-purple-700 transition-colors shadow-md inline-block">
             GET STARTED
